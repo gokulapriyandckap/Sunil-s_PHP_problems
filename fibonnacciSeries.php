@@ -14,4 +14,4 @@ while ($i <= $n) {
     $i += 1;
 }
 }
-fibannacciSeries (10);
+fibannacciSeries (20);
