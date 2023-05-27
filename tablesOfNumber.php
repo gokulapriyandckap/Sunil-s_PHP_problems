@@ -1,9 +1,9 @@
 <?php
-function tablesOfNumber($number)
+function tablesOfNumber($number,$limit)
 {
-for ($i=1; $i <= 10 ; $i++) { 
+for ($i=1; $i <= $limit ; $i++) { 
     echo "$number * $i = ". $number * $i."\n";
 }
 }
 
-tablesOfNumber(10);
+tablesOfNumber(10,20);
